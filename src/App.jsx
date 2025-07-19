@@ -1,11 +1,16 @@
+import { Toaster } from 'react-hot-toast'
 import './index.css'
+import { Routes } from 'react-router-dom'
 
 function App() {
 
   return (
-    <span className='bg-red-500'>
-      App
-    </span>
+    <main>
+      <Toaster position='bottom-right' />
+      <Routes>
+        
+      </Routes>
+    </main>
   )
 }
 
