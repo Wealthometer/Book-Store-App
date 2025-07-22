@@ -2,8 +2,8 @@ import React from 'react'
 import { IoLibraryOutline } from 'react-icons/io5'
 import { PiEnvelopeDuotone } from 'react-icons/pi'
 import { TbBrandBlogger, TbHome } from 'react-icons/tb'
-import { NavLink } from 'react-router-dom'
-import '../index.css'
+import { NavLink } from 'react-router-dom' 
+import '../index.css' 
 
 const Navbar = (containerStyles) => { 
  
