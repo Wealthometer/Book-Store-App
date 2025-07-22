@@ -6,7 +6,7 @@ import { NavLink } from 'react-router-dom'
 import '../index.css'
 
 const Navbar = ({containerStyles, setmenuOpened}) => {
-
+ 
   const navItems = [
     {to : "/", label: "Home", icon : <TbHome />},
     {to : "/shop", label: "Shop", icon : <IoLibraryOutline />},
