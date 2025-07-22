@@ -2,14 +2,14 @@ import React from 'react'
 import { IoLibraryOutline } from 'react-icons/io5'
 import { PiEnvelopeDuotone } from 'react-icons/pi'
 import { TbBrandBlogger, TbHome } from 'react-icons/tb'
-import { NavLink } from 'react-router-dom' 
-import '../index.css' 
+import { NavLink } from 'react-router-dom'
+import '../index.css'
 
 const Navbar = (containerStyles) => { 
  
   const navItems = [
     {to : "/", label: "Home", icon : <TbHome />},
-    {to : "/shop", label: "Shop", icon : <IoLibraryOutline />}, 
+    {to : "/shop", label: "Shop", icon : <IoLibraryOutline />},
     {to : "/blog", label: "Blog", icon : <TbBrandBlogger />},
     {to : "malito:infozibooka.com", label: "Contact", icon : <PiEnvelopeDuotone />},
   ]
