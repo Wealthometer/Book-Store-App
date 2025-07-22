@@ -9,7 +9,7 @@ const Navbar = (containerStyles) => {
  
   const navItems = [
     {to : "/", label: "Home", icon : <TbHome />},
-    {to : "/shop", label: "Shop", icon : <IoLibraryOutline />},
+    {to : "/shop", label: "Shop", icon : <IoLibraryOutline />}, 
     {to : "/blog", label: "Blog", icon : <TbBrandBlogger />},
     {to : "malito:infozibooka.com", label: "Contact", icon : <PiEnvelopeDuotone />},
   ]

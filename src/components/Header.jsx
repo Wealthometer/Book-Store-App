@@ -11,7 +11,7 @@ import '../index.css'
 
 const Header = () => {
   const [menuOpened, setmenuOpened] = useState(true);
-  const [showSearch, setshowSearch] = useState(false);
+  const [showSearch, setshowSearch] = useState(false); 
 
   return (
     <header>
