@@ -5,7 +5,7 @@ import { TbBrandBlogger, TbHome } from 'react-icons/tb'
 import { NavLink } from 'react-router-dom'
 import '../index.css'
 
-const Navbar = ({containerStyles, setmenuOpened}) => {
+const Navbar = (containerStyles) => { 
  
   const navItems = [
     {to : "/", label: "Home", icon : <TbHome />},
